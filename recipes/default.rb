@@ -23,7 +23,7 @@ end
 
 # install nodejs
 remote_file '/tmp/nodesource_setup.sh' do
-  source 'https://deb.nodesource.com/setup_6.x'
+  source 'https://deb.nodesource.com/setup_8.x'
   action :create
 end
 
